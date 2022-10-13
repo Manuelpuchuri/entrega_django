@@ -7,7 +7,8 @@ import random
 from home.models import Familiar
 
 def hola(request):
-    return HttpResponse("Hola")
+                
+    return HttpResponse('<h1>Hola</h1>')
 
 def fecha(request):
     fecha_y_hora = datetime.now()
